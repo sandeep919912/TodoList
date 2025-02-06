@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do SignUp page</title>
+    <link rel="stylesheet" href="./TodoSignUp/signStyle.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="todo">
+            <h2>To-Do App</h2>
+        <img src="Images/icon.png">
+        </div>
+        <div class="loginDiv">
+            <button id="btn" onclick="loginPage()">LogIn</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="username">
+                <h3>username or email</h3>
+                <input type="text" id="username" placeholder="username or email">
+            </div>
+
+            <div class="password">
+                <h3>Password</h3>
+                <input type="password" id="password" placeholder=" Set password">
+            </div>
+
+            <input type="submit" name="Submit" id="submit" onclick="setuser()">
+        </div>
+    </div>
+    
+    <script src="./TodoSignUp/signUp.js"></script>
+</body>
+</html>
